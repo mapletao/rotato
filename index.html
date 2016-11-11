@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/carousel.css">
+</head>
+<body>
+	<div class="J_Banner banner-main" date-setting='{
+			"width":1000, 
+			"height":651,	
+			"posterWidth":440,	
+			"posterHeight":650,	
+			"scale":0.7, 	
+			"speed":500,
+			"autoPlay":true,
+			"delay":5000,
+			"verticalAlign":"middle"
+		}'>
+		<div class="banner-btn banner-prev-btn"></div>
+		<ul class="banner-list">
+			<li class="banner-item"><a href="#"><img src="img/1-1.jpg" width="100%"></a></li>
+			<li class="banner-item"><a href="#"><img src="img/2-1.jpg" width="100%"></a></li>
+			<li class="banner-item"><a href="#"><img src="img/3-1.jpg" width="100%"></a></li>
+			<li class="banner-item"><a href="#"><img src="img/4-1.jpg" width="100%"></a></li>
+		</ul>
+		<div class="banner-btn banner-next-btn"></div>
+	</div>
+	<div class="J_Banner banner-main" date-setting='{
+			"width":1000, 
+			"height":640,	
+			"posterWidth":430,	
+			"posterHeight":640,	
+			"scale":0.5, 	
+			"speed":1000,
+			"autoPlay":true,
+			"delay":5000,	
+			"verticalAlign":"middle"
+		}'>
+		<div class="banner-btn banner-prev-btn"></div>
+		<ul class="banner-list">
+			<li class="banner-item"><a href="#"><img src="img/5-2.jpg" width="100%"></a></li>
+			<li class="banner-item"><a href="#"><img src="img/5-3.jpg" width="100%"></a></li>
+			<li class="banner-item"><a href="#"><img src="img/5-4.jpg" width="100%"></a></li>
+			<li class="banner-item"><a href="#"><img src="img/5-5.jpg" width="100%"></a></li>
+			<li class="banner-item"><a href="#"><img src="img/5-1.jpg" width="100%"></a></li>
+		</ul>
+		<div class="banner-btn banner-next-btn"></div>
+	</div>
+</body>
+<script type="text/javascript" src="js/carousel.js"></script>
+<script type="text/javascript">
+	$(function(){
+		Carousel.init($(".J_Banner"));
+	})
+</script>
+</html>

@@ -1,0 +1,20 @@
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font-size:12px;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;border:none; background:none;}
+textarea{resize:none;}
+a{text-decoration:none; color:#656565;}
+
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+
+.banner-main{ width: 800px; height:270px; position: relative; margin:0 auto 20px; overflow: hidden;}
+.banner-main a,.banner-main img{ display: block}
+.banner-main .banner-btn{ width: 100px; height: 270px; position: absolute;top:0;z-index: 10; cursor: pointer;opacity: .8;}
+.banner-main .banner-prev-btn{left: 0; background: url(../img/btn_l.png) no-repeat center center;}
+.banner-main .banner-next-btn{right: 0; background: url(../img/btn_r.png) no-repeat center center;}
+.banner-main .banner-item{position: absolute;}
